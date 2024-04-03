@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: #373434; color: azure;">
+    <ul class="demo">
+        <li>hello world</li>
+    </ul>
+</body>
+<script>
+    function addText(mssg) {
+        const li = document.createElement('li')
+        li.innerHTML = `${mssg}`
+        document.querySelector('.demo').appendChild(li)
+    }
+    addText("Good Morning India")
+    addText("KemCho Surat")
+
+    function addoptiText(mssg) {
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(mssg))
+        document.querySelector('.demo').appendChild(li)
+    }
+    addoptiText("Hello Surtis")
+
+
+    //======EDIT=====
+    const addmssg = document.querySelector("li:nth-child(2)")
+    const newmssg = document.createElement('li')
+    newmssg.textContent = "Hello Kasa kay mumbai"
+    addmssg.replaceWith(newmssg)
+
+
+
+    //=====Edit====
+    const addnewmssg = document.querySelector("li:first-child")
+    addnewmssg.outerHTML = '<li>Namstee</li>'
+
+
+    //====Remove====
+    const removemssg = document.querySelector("li:last-child")
+    removemssg.remove()
+</script>
+
+</html>
