@@ -1,0 +1,35 @@
+body{
+    font-family: sans-serif;
+  }
+#wrapper{
+    height: 550px;
+    width: 500px;
+    background-color: aquamarine;
+    text-align: center;
+}
+#guess{
+    font-size: 40px;
+    display: block; 
+}
+#guessField{
+    margin-top: 10px;
+    height: 30px;
+    width: 200px
+}
+#subt{
+    background-color: black;
+    color: #ffffff;
+    height: 35px;
+    width: 200px;
+    border-style: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}   
+h1{
+    background-color: black;
+    color: #ffffff;
+    margin: 0px;
+}
+.guesses{
+    background-color: burlywood;
+}

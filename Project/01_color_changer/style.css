@@ -1,0 +1,27 @@
+span{
+    display: block;
+}
+.canvas{
+    text-align: center;
+    
+}
+
+.button{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#aqua{
+    background-color: aqua;
+}
+#yellow{
+    background-color: rgb(255, 251, 0);
+}
+#blue{
+    background-color: rgb(25, 0, 255);
+}
+#red{
+    background-color: rgb(255, 0, 0);
+}

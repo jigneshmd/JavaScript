@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: cadetblue;">
+    <h1 style="color: rgb(142, 73, 23);">Hello Welcome to the world</h1>
+    <button id="green">green</button>
+    <button id="yellow">yellow</button>
+</body>
+
+<script>
+    // function outer() {
+    //     let userName = "Hiiiiii"
+    //     // console.log("Outer", greting); //is not allowed to get a value to child
+    //     function inner() {
+    //         let greting = "Namstee"
+    //         console.log("inner", userName);
+    //     }
+    //     function innerTwo() {
+    //         console.log("innerTwo", userName);
+    //         console.log(greting); // is not allowed to pass any value child to child
+    //     }
+    //     inner()
+    //     innerTwo()
+    // }
+    // outer()
+    // console.log("Outer", userName);
+
+    //Closure
+    // function makeFunc() {
+    //     const Name = "Michel";
+    //     function displayName() {
+    //         console.log(Name);
+    //     }
+    //     return displayName;
+    // }
+    // const myFunc = makeFunc();
+    // myFunc()
+
+</script>
+
+<script>
+    // document.getElementById("green").onclick = function () {
+    //     document.body.style.backgroundColor = "green"
+    // }
+    // document.getElementById("yellow").onclick = function () {
+    //     document.body.style.backgroundColor = "yellow"
+    // }
+
+    function clickHandler(color) {
+        return function () {
+            document.body.style.backgroundColor = `${color}`
+        }
+    }
+    document.getElementById("green").onclick = clickHandler("green")
+    document.getElementById("yellow").onclick = clickHandler("yellow")
+</script>
+
+</html>
