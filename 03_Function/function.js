@@ -5,7 +5,7 @@ function myFunction() {
   console.log("Kem Cho");
   console.log("MajaMA");
 }
-// myFunction();
+myFunction();
 
 // function addNum(a, b) {
 //   console.log(a + b);

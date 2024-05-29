@@ -83,4 +83,4 @@ const course = {
   Type: "Online",
 };
 const { Fees } = course;
-console.log(Fees);
+// console.log(Fees);

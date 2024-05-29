@@ -1,5 +1,5 @@
-// const name = "jignesh";
-// const num = 5;
+const name = "jignesh";
+const num = 5;
 // console.log(name + num + "value");
 // console.log(`username is ${name} and his login ${num} time`);
 
@@ -18,8 +18,8 @@ const newname = new String("Jignesh-Mahesh-bhai-dankhara");
 // console.log(onestring);
 
 const stringTwo = "    Jignesh           ";
-console.log(stringTwo);
-console.log(stringTwo.trim());
+// console.log(stringTwo);
+// console.log(stringTwo.trim());
 
 const url = "https://google.com%20chrome";
 
@@ -27,4 +27,4 @@ const url = "https://google.com%20chrome";
 
 // console.log(url.includes("chrome"));
 
-console.log(newname.split("-"));
+// console.log(newname.split("-"));

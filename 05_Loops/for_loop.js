@@ -1,9 +1,9 @@
-// let a = 10;
+let a = 10;
 
-// for (let i = 0; i <= a; i++) {
-//   let element = "*";
-//   console.log(element.repeat(i));
-// }
+for (let i = 0; i <= a; i++) {
+  let element = "*";
+  console.log(element.repeat(i));
+}
 
 // for (let i = 1; i <= 10; i++) {
 //   let Element = i;
